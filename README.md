@@ -12,15 +12,15 @@ Fall in love with TeX. Takhti is a desktop LaTeX editor for research papers, equ
 
 Watch the [Takhti video on YouTube](https://youtu.be/V9Gahk5-wYc) to see live PDF preview, suggestions and the pop-out teaching preview.
 
-## Download Takhti 0.9.29
+## Download Takhti
 
-Safer live bibliography refreshes, restored grab-and-drag preview navigation, optional diagnostic reports with consent and review, and Takhti Focus across platforms. Reports exclude document text, filenames, paths and raw logs. The Ubuntu and Windows 0.9.29 downloads also include the corrected theme styling.
+Safer live bibliography refreshes, restored grab-and-drag preview navigation, optional diagnostic reports with consent and review, and Takhti Focus across platforms. Reports exclude document text, filenames, paths and raw logs. The Ubuntu 0.9.29 download also includes the corrected theme styling. The Windows download is the native 0.9.30-beta.1 build with the verified persistent live engine.
 
 | Platform | Download | Requirements |
 | --- | --- | --- |
 | Mac | [Download for Mac](https://github.com/TeXTakhti/Takhti/releases/download/v0.9.29/Takhti-0.9.29-macOS.dmg) | Apple silicon, macOS 11+ |
 | Ubuntu Linux | [Download for Ubuntu](https://github.com/TeXTakhti/Takhti/releases/download/v0.9.29/Takhti-0.9.29-Ubuntu-amd64.deb?revision=20261026-themes) | Ubuntu 22.04+, Intel/AMD 64-bit |
-| Windows | [Download for Windows](https://github.com/TeXTakhti/Takhti/releases/download/v0.9.29/Takhti-0.9.29-Windows-WSL-x64.exe?revision=20261026-themes) | x64, WSL 2 and WSLg; Windows 11 or Windows 10 build 19044+ |
+| Windows native beta | [Download for Windows](https://github.com/TeXTakhti/Takhti/releases/download/v0.9.30-windows-beta.1/Takhti-0.9.30-beta.1-Windows-x64-Setup.exe) | Windows 10/11 x64; native Windows TeX Live installed separately |
 
 These are beta releases. The Mac app is not notarized and the Windows installer is unsigned. Linux and Windows need broader testing on their target systems.
 
