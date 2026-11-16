@@ -16,3 +16,5 @@
 #installation-steps{font-size:14px;margin:18px 0 10px;padding-left:22px;line-height:1.7}.installation-note{font-size:12px;line-height:1.6;color:#425d67}.installation-actions{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-top:18px}.installation-actions>a:not(.button){font-size:12px;text-decoration:underline;text-underline-offset:3px}
 .installation-guide button:focus-visible{outline:3px solid #dfab58;outline-offset:3px}
 @media(max-width:600px){.installation-guide{padding:17px;max-height:94vh}.installation-heading h2{font-size:23px}.installation-actions .button{width:100%}.installation-media video,.installation-media img{max-height:43vh}}
+
+.installation-callout{padding:1rem 1.25rem;border:1px solid #657e86;border-radius:12px;background:#102e39;color:#f6f0e5;margin:1.5rem 0}.installation-link{display:block;font-weight:700;text-decoration:underline;text-underline-offset:4px;padding:.75rem 0}
