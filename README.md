@@ -20,7 +20,7 @@ Safer live bibliography refreshes, restored grab-and-drag preview navigation, op
 | --- | --- | --- |
 | Mac | [Download for Mac](https://github.com/TeXTakhti/Takhti/releases/download/v0.9.31/Takhti-0.9.31-macOS.dmg) | Apple silicon, macOS 11+ |
 | Ubuntu Linux | [Download for Ubuntu](https://github.com/TeXTakhti/Takhti/releases/download/v0.9.31/Takhti-0.9.31-Ubuntu-amd64.deb) | Ubuntu 22.04+, Intel/AMD 64-bit |
-| Windows | [Download for Windows](https://github.com/TeXTakhti/Takhti/releases/download/v0.9.31/Takhti-0.9.31-Windows-x64-Setup.exe) | Windows 10/11 x64; native Windows TeX Live installed separately |
+| Windows | [Download for Windows](https://github.com/TeXTakhti/Takhti/releases/download/v0.9.31/Takhti-0.9.31-Windows-x64-Setup.exe) | Windows 10/11 x64; guided full TeX Live setup |
 
 The Mac app is not notarized and the Windows installer is unsigned. Linux and Windows need broader testing on their target systems.
 
@@ -45,7 +45,7 @@ Live feedback is incremental; initial loading and complex documents may take lon
 
 **Ubuntu:** install the DEB with your package installer, or run `sudo apt install ./Takhti-0.9.31-Ubuntu-amd64.deb`.
 
-**Windows:** install native Windows TeX Live if needed, then run the native Takhti installer. WSL is not required.
+**Windows:** run the Takhti installer. First-run setup reuses full native Windows TeX Live or offers to download and install it. You can defer setup and return from Settings.
 
 First-run setup detects existing components and offers missing dependencies. A full MacTeX or TeX Live installation can require several gigabytes. Downloads show progress and can resume after interruptions.
 
