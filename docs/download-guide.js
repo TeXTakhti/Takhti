@@ -4,7 +4,7 @@
   const video = document.getElementById('installation-video');
   const guides = {
     mac: { title: 'Install Takhti on Mac', duration: '54-second walkthrough · shown at 2× speed', video: 'mac-install.mp4', poster: 'mac-poster.jpg', steps: ['Download the Mac installer from GitHub.', 'Open the DMG and run Install Takhti.pkg.', 'Open Takhti and follow setup for any missing dependencies.'], note: 'Apple silicon · macOS 11+. The app is not Apple-notarized; macOS may ask you to allow it in System Settings → Privacy & Security.' },
-    windows: { title: 'Install Takhti on Windows', duration: '38-second walkthrough · shown at 2.5× speed · download wait shortened', video: 'windows-install.mp4', poster: 'windows-poster.jpg', steps: ['Download the Windows installer from GitHub.', 'Run the setup .exe and follow the installation steps.', 'Open Takhti. Install native Windows TeX Live separately if needed.'], note: 'Windows 10/11 x64 · No WSL required. The installer is unsigned, so Windows may show a security prompt. Native TeX Live is a separate download.' }
+    windows: { title: 'Install Takhti on Windows', duration: '38-second walkthrough · shown at 2.5× speed · download wait shortened', video: 'windows-install.mp4', poster: 'windows-poster.jpg', steps: ['Download the Windows installer from GitHub.', 'Run the setup .exe and follow the installation steps.', 'Open Takhti. Install native Windows TeX Live separately if needed.'], note: 'Windows 10/11 x64. The installer is unsigned, so Windows may show a security prompt. Native TeX Live is a separate download.' }
   };
   const downloads = {};
   const base = 'assets/installation/';
