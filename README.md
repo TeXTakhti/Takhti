@@ -14,13 +14,13 @@ Watch the [Takhti video on YouTube](https://youtu.be/V9Gahk5-wYc) to see live PD
 
 ## Download Takhti
 
-Safer live bibliography refreshes, restored grab-and-drag preview navigation, optional diagnostic reports with consent and review, and Takhti Focus across platforms. Reports exclude document text, filenames, paths and raw logs. Ubuntu and Windows now include Markdown editing with live math preview and a simplified menu. The Windows download is the native 0.9.31 build with the verified persistent live engine.
+Version 0.9.33 fixes cropped logos in Takhti Live on all three platforms. Mac and Ubuntu also send isolated edits immediately and track errors incrementally. Windows retains its existing live-edit scheduling.
 
 | Platform | Download | Requirements |
 | --- | --- | --- |
-| Mac | [Download for Mac](https://github.com/TeXTakhti/Takhti/releases/download/v0.9.31/Takhti-0.9.31-macOS.dmg) | Apple silicon, macOS 11+ |
-| Ubuntu Linux | [Download for Ubuntu](https://github.com/TeXTakhti/Takhti/releases/download/v0.9.31/Takhti-0.9.31-Ubuntu-amd64.deb) | Ubuntu 22.04+, Intel/AMD 64-bit |
-| Windows | [Download for Windows](https://github.com/TeXTakhti/Takhti/releases/download/v0.9.31/Takhti-0.9.31-Windows-x64-Setup.exe) | Windows 10/11 x64; guided full TeX Live setup |
+| Mac | [Download for Mac](https://github.com/TeXTakhti/Takhti/releases/download/v0.9.33/Takhti-0.9.33-macOS.dmg) | Apple silicon, macOS 11+ |
+| Ubuntu Linux | [Download for Ubuntu](https://github.com/TeXTakhti/Takhti/releases/download/v0.9.33/Takhti-0.9.33-Ubuntu-amd64.deb) | Ubuntu 22.04+, Intel/AMD 64-bit |
+| Windows | [Download for Windows](https://github.com/TeXTakhti/Takhti/releases/download/v0.9.33/Takhti-0.9.33-Windows-x64-Setup.exe) | Windows 10/11 x64; guided full TeX Live setup |
 
 The Mac app is not notarized and the Windows installer is unsigned. Linux and Windows need broader testing on their target systems.
 
@@ -43,7 +43,7 @@ Live feedback is incremental; initial loading and complex documents may take lon
 
 **Mac:** open the DMG and run Install Takhti.pkg to install or update the app.
 
-**Ubuntu:** install the DEB with your package installer, or run `sudo apt install ./Takhti-0.9.31-Ubuntu-amd64.deb`.
+**Ubuntu:** install the DEB with your package installer, or run `sudo apt install ./Takhti-0.9.33-Ubuntu-amd64.deb`.
 
 **Windows:** run the Takhti installer. First-run setup reuses full native Windows TeX Live or offers to download and install it. You can defer setup and return from Settings.
 
@@ -55,4 +55,4 @@ Editing and compilation happen on your computer. No Takhti account or manuscript
 
 [Setup and beginner guides](https://textakhti.github.io/Takhti/guides.html) · [Teaching with Takhti](https://textakhti.github.io/Takhti/teaching.html)
 
-This repository hosts the website and official binary downloads. It does not publish the Takhti application source. Third-party components retain their respective licenses and notices.
+The [readable source for 0.9.33](https://github.com/TeXTakhti/Takhti/releases/download/v0.9.33/Takhti-0.9.33-source.tar.gz) includes build instructions and third-party notices.
